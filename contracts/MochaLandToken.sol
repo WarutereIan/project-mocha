@@ -102,7 +102,7 @@ contract MochaLandToken is ERC721URIStorage, Ownable {
             '"name": "', metadata.name, '",',
             '"description": "', metadata.description, '",',
             '"image": "', metadata.imageURI, '",',
-            '"attributes": [',
+          /*   '"attributes": [',
                 '{"trait_type": "Location", "value": "', metadata.location, '"},',
                 '{"trait_type": "GPS Coordinates", "value": "', metadata.gpsCoordinates, '"},',
                 '{"trait_type": "Area", "value": "', metadata.area, '"},',
@@ -111,7 +111,7 @@ contract MochaLandToken is ERC721URIStorage, Ownable {
                 '{"trait_type": "Water Source", "value": "', metadata.waterSource, '"},',
                 '{"trait_type": "Yield Potential", "value": "', uint256(metadata.yieldPotential).toString(), ' kg per year"},',
                 '{"trait_type": "Last Survey Date", "value": "', formatDate(metadata.lastSurveyDate), '"}',
-            '],',
+            '],', */
             '"external_url": "', metadata.externalURL, '"',
             '}'
         );
